@@ -81,3 +81,27 @@
     }
 
 }
+
+
+
+@media only screen and (max-width:1000px) {
+    .welcome {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .ourLeft{
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+
+    .ourRight{
+        width: 100%;
+    }
+
+    .ourSection {
+        height: 140vh;
+    }
+}

@@ -1,0 +1,106 @@
+.gallerySection {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #f8f9fa;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1400px;
+    padding: 100px 50px;
+}
+
+.galleryDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.galleryText {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+        font-size: 3.5rem;
+        font-weight: 300;
+        line-height: 1.1;
+        font-family: "Playfair Display", serif;
+    }
+
+    p {
+        font-size: 1.25rem;
+        font-weight: 300;
+        font-family: "Raleway", sans-serif;
+        color: #b8b8b8;
+        line-height: 1.6;
+        width: 600px;
+    }
+}
+
+.galleryBox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    gap: 15px;
+
+}
+
+.imageCard {
+    flex: 0 0 32.33%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+
+    img {
+        width: 100%;
+        object-fit: contain;
+    }
+}
+
+
+@media only screen and (max-width:835px) {
+    .imageCard {
+        flex: 0.3 0 50.33%;
+    }
+}
+
+
+@media only screen and (max-width:771px) {
+    .galleryText p {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width:614px) {
+    .galleryText p {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width:525px) {
+   .container{
+    padding: 25px;
+   }
+}
+
+
+@media only screen and (max-width:450px) {
+    .galleryText p {
+        width: 300px;
+    }
+ }
+
+ @media only screen and (max-width:360px) {
+    .galleryText p {
+        width: 250px;
+    }
+ }

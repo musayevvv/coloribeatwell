@@ -50,3 +50,10 @@
         margin-top: 20px;
     }
 }
+
+
+@media only screen and (max-width:770px) {
+    .bannerText h1 {
+        font-size: 37px;
+    }
+}

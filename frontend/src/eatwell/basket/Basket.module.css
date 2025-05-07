@@ -1,0 +1,84 @@
+.basket {
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #f9f9f9;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+}
+
+.basket h1 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #333;
+}
+
+.basket ul {
+    list-style: none;
+    padding: 0;
+}
+
+.basket li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.75rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease-in-out;
+}
+
+.basket li:hover {
+    transform: translateY(-2px);
+}
+
+.basket img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.basket span {
+    flex: 1;
+    margin: 0 1rem;
+    font-size: 1.1rem;
+    color: #444;
+}
+
+.basket_buttons {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.basket_buttons button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 0.4rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.basket_buttons button:hover {
+    background-color: #0056b3;
+}
+
+.basket_buttons button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+.basket_buttons button:last-child {
+    background-color: #dc3545;
+}
+
+.basket_buttons button:last-child:hover {
+    background-color: #c82333;
+}
